@@ -537,6 +537,7 @@ img {
 .forma {
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
 
 .e-mail-footer {
