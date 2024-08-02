@@ -501,7 +501,7 @@
               />
             </label>
 
-            <button typr="submit" class="button-telegram">
+            <button type="submit" class="button-telegram">
               Subscribe
               <svg class="space" width="24" height="24">
                 <use href="./images/icons.svg#icon-frame"></use>
@@ -526,25 +526,40 @@
           <div class="first-div">
             <label for="user-name" class="label"> Name</label>
             <div class="icon-up">
-              <input id="user-name" type="text" class="form-input" />
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="form-input visually-hidden"
+              />
               <svg width="18" height="24" class="icons-black">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
           </div>
-          <div>
+          <div class="first-div">
             <label for="tel-number" class="label">Phone</label>
             <div class="icon-up">
-              <input type="tel" id="tel-number" class="form-input" />
+              <input
+                type="tel"
+                id="tel-number"
+                name="tel-number"
+                class="form-input visually-hidden"
+              />
               <svg width="18" height="24" class="icons-black">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
-          <div>
+          <div first-div>
             <label for="email" class="label">Email</label>
             <div class="icon-up">
-              <input type="email" id="email" class="form-input" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input visually-hidden"
+              />
               <svg width="18" height="24" class="icons-black">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
@@ -561,8 +576,7 @@
           </div>
           <div class="margin-two-four">
             <input
-              visually-hidden
-              class="input-checkbox hidden-header"
+              class="input-checkbox hidden-header visually-hidden"
               type="checkbox"
               name="user-privacy"
               value="true"
